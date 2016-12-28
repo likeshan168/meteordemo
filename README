@@ -1,0 +1,8 @@
+发布流程
+1. meteor bundle projectname.tar.gz
+2. 上传projectname.tar.gz到指定的服务器并解压
+3. 进入解压目录\programs\server，执行npm install
+4. export MONGO_URL='mongodb://localhost/meteor'
+   export ROOT_URL='http://example.com'
+   export PORT=3000
+5. node main.js
