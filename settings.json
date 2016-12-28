@@ -1,0 +1,6 @@
+{
+    "env": {
+        "PORT": 4000,
+        "MONGO_URL": "mongodb://47.88.149.87/meteor"
+    }
+}
